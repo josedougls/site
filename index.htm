@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Um espaço para aprender, experimentar e criar páginas completas com HTML e CSS.">
+	<title>Traço Web — HTML, CSS e criação para a web</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="site-header">
+		<a class="brand" href="#inicio" aria-label="Traço Web, início">
+			<span class="brand-mark" aria-hidden="true">t.</span>
+			<span>traço<span class="brand-light">web</span></span>
+		</a>
+
+		<nav class="main-nav" aria-label="Navegação principal">
+			<a href="#inicio">Início</a>
+			<a href="#fundamentos">Fundamentos</a>
+			<a href="#projetos">Projetos</a>
+			<a class="nav-contact" href="https://wa.me/55839880688574" target="_blank" rel="noopener noreferrer">Vamos conversar <span aria-hidden="true">↗</span></a>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero" id="inicio" aria-labelledby="hero-title">
+			<div class="hero-copy">
+				<p class="eyebrow"><span class="status-dot"></span> Laboratório de criação para a web</p>
+				<h1 id="hero-title">Toda grande ideia merece um <span>bom começo.</span></h1>
+				<p class="hero-description">Da estrutura ao último detalhe, descubra como HTML e CSS transformam ideias em experiências digitais completas.</p>
+				<div class="hero-actions">
+					<a class="button button-dark" href="#fundamentos">Conheça os fundamentos <span aria-hidden="true">↓</span></a>
+					<a class="text-link" href="#projetos">Ver projetos <span aria-hidden="true">↗</span></a>
+				</div>
+				<div class="hero-note">
+					<span class="note-rule"></span>
+					<p>Aprender fazendo.<br><strong>Publicar com propósito.</strong></p>
+				</div>
+			</div>
+
+			<div class="hero-art" role="img" aria-label="Composição editorial com formas coloridas e uma janela de código">
+				<div class="art-topline"><span>IDEIA&nbsp; / &nbsp;INTERFACE</span><span>01 — 03</span></div>
+				<div class="art-shape art-shape-coral"></div>
+				<div class="art-shape art-shape-blue"></div>
+				<div class="art-shape art-shape-yellow"></div>
+				<div class="code-window" aria-hidden="true">
+					<div class="window-bar"><span></span><span></span><span></span><i>index.html</i></div>
+					<div class="code-lines">
+						<span class="code-muted">01</span><span><b>&lt;main&gt;</b></span>
+						<span class="code-muted">02</span><span class="code-indent"><b>&lt;h1&gt;</b>Olá, mundo<b>&lt;/h1&gt;</b></span>
+						<span class="code-muted">03</span><span class="code-indent"><b>&lt;p&gt;</b>Feito para a web.<b>&lt;/p&gt;</b></span>
+						<span class="code-muted">04</span><span><b>&lt;/main&gt;</b></span>
+					</div>
+				</div>
+				<span class="art-caption">ESTRUTURA + EXPRESSÃO</span>
+				<span class="art-index">TW—26</span>
+			</div>
+		</section>
+
+		<section class="intro-band" aria-label="Princípios do Traço Web">
+			<p>Uma página bem feita é mais do que aparência.</p>
+			<span>É clareza, cuidado e intenção em cada linha.</span>
+			<span class="band-spark" aria-hidden="true">✳</span>
+		</section>
+
+		<section class="foundations section-wrap" id="fundamentos" aria-labelledby="foundations-title">
+			<div class="section-heading">
+				<div>
+					<p class="eyebrow">01 / A base de tudo</p>
+					<h2 id="foundations-title">Duas linguagens.<br><span>Infinitas possibilidades.</span></h2>
+				</div>
+				<p class="section-summary">Cada página começa com uma estrutura sólida e ganha vida quando forma e função trabalham juntas.</p>
+			</div>
+
+			<div class="foundation-grid">
+				<article class="foundation-item">
+					<span class="foundation-number">01</span>
+					<span class="foundation-symbol symbol-html" aria-hidden="true">&lt;/&gt;</span>
+					<h3>HTML</h3>
+					<p>Organize o conteúdo com significado. Títulos, imagens e links ganham uma estrutura que pessoas e navegadores entendem.</p>
+					<a href="#projetos" aria-label="Ver projetos com HTML">Explorar estrutura <span aria-hidden="true">↗</span></a>
+				</article>
+				<article class="foundation-item">
+					<span class="foundation-number">02</span>
+					<span class="foundation-symbol symbol-css" aria-hidden="true">✳</span>
+					<h3>CSS</h3>
+					<p>Defina cores, formas e movimento. O CSS dá personalidade à interface e adapta cada detalhe a diferentes telas.</p>
+					<a href="#projetos" aria-label="Ver projetos com CSS">Explorar estilos <span aria-hidden="true">↗</span></a>
+				</article>
+				<article class="foundation-item foundation-aside">
+					<span class="foundation-number">+</span>
+					<p class="aside-quote">“A web é feita de ideias que encontram seu lugar.”</p>
+					<span class="aside-credit">UM PROJETO DE CADA VEZ</span>
+					<span class="aside-star" aria-hidden="true">✳</span>
+				</article>
+			</div>
+		</section>
+
+		<section class="projects" id="projetos" aria-labelledby="projects-title">
+			<div class="section-wrap projects-inner">
+				<div class="section-heading projects-heading">
+					<div>
+						<p class="eyebrow">02 / Da ideia à tela</p>
+						<h2 id="projects-title">Aprender é <span>construir.</span></h2>
+					</div>
+					<a class="text-link" href="mailto:ola@tracoweb.dev">Comece um projeto <span aria-hidden="true">↗</span></a>
+				</div>
+
+				<div class="project-grid">
+					<article class="project-card project-card-large">
+						<div class="project-visual visual-gallery" role="img" aria-label="Página de galeria com formas abstratas em vermelho, amarelo e azul">
+							<span class="visual-label">01 — GALERIA</span>
+							<div class="gallery-window"><span class="gallery-orb"></span><span class="gallery-block"></span><span class="gallery-stripe"></span></div>
+							<span class="visual-arrow" aria-hidden="true">↗</span>
+						</div>
+						<div class="project-meta"><div><h3>Uma galeria de ideias</h3><p>Composição, ritmo e hierarquia visual.</p></div><span>HTML + CSS</span></div>
+					</article>
+					<article class="project-card">
+						<div class="project-visual visual-editorial" role="img" aria-label="Layout editorial de uma publicação digital com tipografia e fotografia">
+							<span class="visual-label">02 — EDITORIAL</span>
+							<div class="editorial-page"><span class="editorial-kicker">NOTAS SOBRE O COTIDIANO</span><span class="editorial-title">Pequenas<br>descobertas.</span><span class="editorial-image"></span><span class="editorial-lines"></span></div>
+							<span class="visual-arrow" aria-hidden="true">↗</span>
+						</div>
+						<div class="project-meta"><div><h3>Leitura em movimento</h3><p>Um exercício de conteúdo responsivo.</p></div><span>HTML + CSS</span></div>
+					</article>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<a class="brand footer-brand" href="#inicio" aria-label="Traço Web, voltar ao início">
+			<span class="brand-mark" aria-hidden="true">t.</span>
+			<span>traço<span class="brand-light">web</span></span>
+		</a>
+		<p>Feito com intenção, uma linha de cada vez.</p>
+		<a class="back-top" href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
+		<span class="footer-copy">© 2026 TRAÇOWEB</span>
+	</footer>
+</body>
+</html>
+
